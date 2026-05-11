@@ -113,7 +113,7 @@ This folder is a **complete** study pack for the AWS Certified Cloud Practitione
 
 ## Coverage Note
 
-This pack is mapped to the current AWS Certified Cloud Practitioner `CLF-C02` exam guide and in-scope service list, verified on May 10, 2026.
+This pack is mapped to the current AWS Certified Cloud Practitioner `CLF-C02` exam guide and in-scope/out-of-scope service lists, verified on May 12, 2026.
 
 Content reflects:
 - Current 6 Well-Architected pillars (Sustainability included)

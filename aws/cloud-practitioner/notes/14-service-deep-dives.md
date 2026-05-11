@@ -211,8 +211,8 @@ The exam still tests Snow Family knowledge, so learn it:
 | Scenario | Answer |
 |----------|--------|
 | "Transfer 50 TB from data center, no reliable internet" | Snowball Edge |
-| "Small portable device for edge compute" | Snowcone (note: discontinued, but may still be exam-tested) |
-| "100 PB one-time migration" | Historically Snowmobile; now DataSync or Direct Connect |
+| "Small portable device for edge compute" | Historically Snowcone; now treat it as course context and prioritize the Snow Family concept |
+| "100 PB one-time migration" | Historically Snowmobile; now treat it as course context and prioritize current transfer options |
 | "Ship a hard drive to AWS" | Snowball Edge |
 
 ### Modern Alternatives (post-Snow retirement)

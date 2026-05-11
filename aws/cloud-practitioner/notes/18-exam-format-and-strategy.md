@@ -21,19 +21,34 @@ This file turns the official AWS exam format into a practical test-taking strate
 Current AWS guidance for `CLF-C02` says:
 
 - `65` total questions
+- `50` scored questions
+- `15` unscored questions mixed into the exam
 - `90` minutes
 - Question types include:
   - multiple choice
   - multiple response
 - Passing score is reported on a `100` to `1000` scale
 - Passing standard: `700`
-- The exam includes unscored questions mixed into the exam
+- Unanswered questions are scored as incorrect
+- There is no penalty for guessing
+- The exam uses a compensatory scoring model, so you pass based on overall score, not by passing each domain separately
 
 Why this matters:
 
 - Not every question counts toward your score.
 - One strange question should not shake your confidence.
 - The goal is steady accuracy, not perfection.
+
+### Official domain weights
+
+| Domain | Weight |
+| --- | --- |
+| Cloud Concepts | 24% |
+| Security and Compliance | 30% |
+| Cloud Technology and Services | 34% |
+| Billing, Pricing, and Support | 12% |
+
+Use this to decide revision time. Security and core AWS services deserve more time than billing, but billing is still easy scoring if you know the tool names.
 
 ### What AWS is really testing
 
@@ -106,6 +121,31 @@ For multiple response questions:
 - Low-level implementation detail for every minor service
 - Memorizing every pricing number
 - Rare edge cases before mastering service-selection basics
+
+### Course terms that are useful but not core AWS objectives
+
+Some courses use teaching terms that are useful for learning but are not official CLF-C02 objective names.
+
+| Term | Meaning | Exam relevance |
+| --- | --- | --- |
+| Validators | Lab checkers that confirm you built the requested AWS resources correctly | Useful for hands-on practice, not usually tested as a term |
+| Case studies | Scenario stories that test service selection and trade-offs | Very relevant because AWS questions are scenario-based |
+| Click Ops | Manually creating or changing cloud resources through the console | Useful contrast with automation/IaC; know console vs CLI vs SDK vs IaC |
+
+Use course terms as learning aids, but prioritize official AWS terms in exam answers.
+
+### YouTube course content vs official exam scope
+
+Andrew Brown / ExamPro style courses often include older services, retired services, labs, or extra context because they are teaching AWS broadly. The official AWS exam guide and in-scope service list should be the source of truth for what to memorize for `CLF-C02`.
+
+Examples:
+
+- `Amazon MSK` appears in some broad analytics courses, but current AWS CLF-C02 official docs list it as out of scope.
+- `WorkDocs` and `WorkMail` can appear in older course material, but current AWS CLF-C02 official docs list them as out of scope.
+- `Chime` and `Pinpoint` can be useful AWS awareness topics, but they are not core services to prioritize for CLF-C02.
+- `AWS App Runner` is useful AWS knowledge, but current AWS CLF-C02 official docs list it as out of scope.
+- `CloudEndure` is old naming in many courses; for current prep, know `AWS Application Migration Service` and `AWS Elastic Disaster Recovery`.
+- `Snowmobile` and `Snowcone` are historically useful context, but current prep should focus on the `AWS Snow Family` concept and current AWS guidance.
 
 ---
 

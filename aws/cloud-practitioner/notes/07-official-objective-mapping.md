@@ -8,9 +8,9 @@ Source basis for this file:
 
 - AWS Certified Cloud Practitioner `CLF-C02` exam guide
 - CLF-C02 domain pages
-- CLF-C02 in-scope AWS services list
+- CLF-C02 in-scope and out-of-scope AWS services lists
 
-Checked against official AWS docs on `May 10, 2026`.
+Checked against official AWS docs on `May 12, 2026`.
 
 ---
 
@@ -141,6 +141,12 @@ Additional official names you should recognize:
 - GuardDuty
 - Shield
 - Inspector
+- CloudHSM
+- Cognito
+- Detective
+- Directory Service
+- Macie
+- Resource Access Manager
 
 #### Task 2.3: Identify AWS access management capabilities
 
@@ -282,14 +288,18 @@ Core names to recognize:
 - SageMaker AI
 - Lex
 - Kendra
+- Polly
 - Rekognition
 - Textract
 - Transcribe
 - Translate
 - Comprehend
+- Amazon Q
 - Athena
+- EMR
 - Kinesis
 - Glue
+- OpenSearch Service
 - QuickSight
 
 Covered in:
@@ -303,12 +313,15 @@ Covered in:
 Required knowledge and skill:
 
 - EventBridge, SNS, SQS
+- Step Functions
 - Connect, SES
 - CodeBuild, CodePipeline, X-Ray
+- AWS CLI
 - AppStream 2.0, WorkSpaces, WorkSpaces Secure Browser
 - Amplify, AppSync
 - IoT Core
 - AWS Support
+- ECR
 
 Covered in:
 
@@ -344,6 +357,7 @@ Required knowledge and skill:
 
 - AWS Budgets
 - Cost Explorer
+- Cost and Usage Reports
 - Pricing Calculator
 - Organizations consolidated billing
 - Cost allocation tags
@@ -378,12 +392,28 @@ Covered in:
 These names are especially worth recognizing quickly:
 
 - EC2, Auto Scaling, ELB, Lambda, Fargate, ECS, EKS, Beanstalk, Lightsail
-- S3, EBS, EFS, FSx, S3 Glacier, Backup, Storage Gateway
-- RDS, Aurora, DynamoDB, ElastiCache, Redshift
-- VPC, Route 53, CloudFront, API Gateway, Direct Connect, VPN
-- IAM, IAM Identity Center, KMS, CloudTrail, CloudWatch, Config, GuardDuty, Shield, WAF, Artifact, Secrets Manager
-- Budgets, Cost Explorer, Pricing Calculator, Organizations, Trusted Advisor, Health Dashboard
-- SNS, SQS, EventBridge, SES, Connect, CodePipeline, CodeBuild, X-Ray, IoT Core, Amplify, AppSync
+- ECR, ECS, EKS, Fargate
+- S3, EBS, EFS, FSx, S3 Glacier, Backup, Storage Gateway, Elastic Disaster Recovery
+- RDS, Aurora, DocumentDB, DynamoDB, ElastiCache, Neptune, Redshift
+- VPC, Route 53, CloudFront, API Gateway, Direct Connect, VPN, Site-to-Site VPN, Client VPN, Transit Gateway, PrivateLink, Global Accelerator
+- IAM, IAM Identity Center, KMS, CloudHSM, CloudTrail, CloudWatch, Config, GuardDuty, Inspector, Macie, Shield, WAF, Artifact, Secrets Manager, Security Hub
+- Budgets, Cost and Usage Reports, Cost Explorer, Marketplace, Organizations, Trusted Advisor, Health Dashboard, Well-Architected Tool
+- SNS, SQS, EventBridge, Step Functions, SES, Connect, CodePipeline, CodeBuild, X-Ray, CLI, IoT Core, Amplify, AppSync
+- Athena, EMR, Glue, Kinesis, OpenSearch Service, QuickSight
+- Application Discovery Service, Application Migration Service, DMS, Migration Evaluator, Migration Hub, SCT, Snow Family
+
+### Current official out-of-scope course names
+
+These may appear in older YouTube courses or broad AWS training, but current AWS CLF-C02 docs mark them as out of scope:
+
+- Amazon MSK
+- Amazon WorkDocs
+- Amazon WorkMail
+- AWS App Runner
+- AWS CodeDeploy
+- AWS CloudShell
+- AWS Network Firewall
+- Amazon FSx for Lustre
 
 ---
 

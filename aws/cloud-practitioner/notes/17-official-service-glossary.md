@@ -31,9 +31,27 @@ This glossary is designed to close the last-mile exam gap between “I know the 
 | AWS Fargate | Serverless runtime for containers | Run containers without managing servers |
 | AWS Elastic Beanstalk | Managed app deployment platform | Simpler application deployment |
 | Amazon Lightsail | Simplified VPS-style service | Small workloads and quick starts |
-| AWS App Runner | Managed app service for web apps and APIs | Quick deployment for containerized/web workloads |
 | AWS Batch | Managed batch job scheduling | Large-scale batch processing |
 | AWS Outposts | AWS infrastructure on-premises | Hybrid cloud use case |
+
+### Containers and serverless services
+
+| Service | What it is | What to remember |
+| --- | --- | --- |
+| Amazon Elastic Container Registry | Container image registry | Store and manage container images |
+| Amazon ECS | AWS-native container orchestration | Run and orchestrate containers without Kubernetes |
+| Amazon EKS | Managed Kubernetes | Use when Kubernetes is required |
+| AWS Fargate | Serverless runtime for containers | Run containers without managing servers |
+| AWS Lambda | Serverless function compute | Event-driven code with no server management |
+
+### Cloud financial management services
+
+| Service | What it is | What to remember |
+| --- | --- | --- |
+| AWS Budgets | Budget and alerting tool | Alerts when cost or usage crosses thresholds |
+| AWS Cost and Usage Reports | Detailed billing dataset | Most detailed cost and usage data |
+| AWS Cost Explorer | Cost analysis tool | Analyze historical spend and usage trends |
+| AWS Marketplace | Software catalog and procurement service | Buy and deploy AWS and third-party software |
 
 ### Storage and backup services
 
@@ -43,8 +61,9 @@ This glossary is designed to close the last-mile exam gap between “I know the 
 | Amazon S3 Glacier | Archival storage classes | Low-cost long-term retention |
 | Amazon EBS | Block storage for EC2 | Persistent attached disks |
 | Amazon EFS | Shared managed file system | Linux file sharing across instances |
-| Amazon FSx | Managed file systems | Specialized file workloads such as Windows |
+| Amazon FSx | Managed file systems | Specialized managed file workloads |
 | AWS Backup | Centralized backup management | Policy-based backup across services |
+| AWS Elastic Disaster Recovery | Disaster recovery service | Replicate and recover workloads |
 | AWS Storage Gateway | Hybrid storage integration | Connect on-premises storage patterns to AWS |
 | AWS Snow Family | Physical data transfer and edge devices | Large offline data movement and edge use cases |
 
@@ -58,11 +77,15 @@ This glossary is designed to close the last-mile exam gap between “I know the 
 | Amazon ElastiCache | Managed in-memory cache | Offload reads and reduce DB pressure |
 | Amazon Redshift | Data warehouse | Large-scale analytics, not transactional app DB |
 | Amazon Athena | SQL query service for S3 data | Serverless SQL on S3 |
+| Amazon EMR | Big data processing platform | Managed Hadoop/Spark style analytics |
 | AWS Glue | Data integration and ETL | Prepares and moves data |
 | Amazon QuickSight | BI dashboards and visualization | Business intelligence reporting |
 | Amazon Kinesis | Streaming data platform | Real-time stream ingestion and processing |
+| Amazon OpenSearch Service | Search and log analytics service | Search, observability, and analytics use cases |
 | AWS Database Migration Service | Database migration service | Moves databases into AWS |
 | AWS Schema Conversion Tool | Schema conversion tool | Converts schema during migrations |
+| Amazon DocumentDB | Managed document database | MongoDB-compatible document workloads |
+| Amazon Neptune | Managed graph database | Highly connected graph data |
 
 ### Networking, content delivery, and API services
 
@@ -74,6 +97,9 @@ This glossary is designed to close the last-mile exam gap between “I know the 
 | Amazon API Gateway | Managed API front door | Expose and manage APIs |
 | AWS Direct Connect | Dedicated network link to AWS | Private connectivity from on-premises |
 | AWS VPN | Encrypted network tunnel over internet | Secure remote/private connectivity |
+| AWS Site-to-Site VPN | VPN between a network and AWS | Common hybrid connectivity pattern |
+| AWS Client VPN | VPN for individual client devices | Secure user access to AWS networks |
+| AWS PrivateLink | Private connectivity to services | Keeps traffic on private AWS network paths |
 | AWS Transit Gateway | Network hub for VPCs and networks | Central network connectivity |
 | AWS Global Accelerator | Traffic acceleration using AWS network | Improves path performance for global apps |
 
@@ -84,14 +110,20 @@ This glossary is designed to close the last-mile exam gap between “I know the 
 | AWS IAM | Identity and access management | Users, roles, policies, least privilege |
 | AWS IAM Identity Center | Central workforce access | SSO across accounts and apps |
 | AWS KMS | Key management service | Managed encryption keys |
+| AWS CloudHSM | Dedicated hardware security module service | Specialized strict key-control requirements |
 | AWS Secrets Manager | Secret storage and rotation | Store app secrets safely |
 | AWS Certificate Manager | TLS certificate management | Certificates for AWS-integrated services |
+| Amazon Cognito | App user identity service | Sign-up and sign-in for applications |
+| Amazon Detective | Security investigation service | Investigates findings and relationships |
+| AWS Directory Service | Managed directory service | Microsoft AD and directory integration |
 | AWS CloudTrail | API activity audit | Who did what in the account |
 | Amazon CloudWatch | Metrics, logs, alarms | Monitoring and observability |
 | AWS Config | Configuration tracking and compliance | Resource state history |
 | AWS Artifact | Compliance reports and agreements | Audit/compliance evidence |
 | Amazon GuardDuty | Threat detection | Detect suspicious behavior |
 | Amazon Inspector | Vulnerability findings | Workload vulnerability scanning |
+| Amazon Macie | Sensitive data discovery | Finds sensitive data such as PII in S3 |
+| AWS Resource Access Manager | Resource sharing service | Share AWS resources across accounts |
 | AWS WAF | Web application firewall | Filter malicious web requests |
 | AWS Shield | DDoS protection | Protect against denial-of-service attacks |
 | AWS Security Hub | Central security findings aggregation | Consolidated security posture view |
@@ -99,8 +131,17 @@ This glossary is designed to close the last-mile exam gap between “I know the 
 | AWS Firewall Manager | Central policy management for security controls | Governance across accounts |
 | AWS Organizations | Multi-account governance and billing | Consolidated billing and guardrails |
 | AWS Control Tower | Multi-account landing zone setup | Standardized account governance |
+| AWS Auto Scaling | Scaling coordination service | Scale multiple AWS resource types |
+| AWS CloudFormation | Infrastructure as code service | Provision AWS resources with templates |
+| AWS Systems Manager | Operations management service | Manage fleets, patching, automation, and inventory |
+| AWS Service Catalog | Approved service portfolio | Govern self-service provisioning |
+| Service Quotas | Quota visibility and increase requests | Know and manage AWS service limits |
+| AWS License Manager | License tracking and governance | Manage software license usage |
+| AWS Compute Optimizer | Resource recommendation service | Rightsizing recommendations |
 | AWS Trusted Advisor | Best-practice checks | Cost, security, reliability guidance |
+| AWS Well-Architected Tool | Workload review service | Review workloads against Well-Architected best practices |
 | AWS Health Dashboard | AWS events affecting workloads | Service and account health events |
+| AWS Management Console | Web UI for AWS | Browser-based AWS management |
 
 ### Messaging, integration, end-user, and developer services
 
@@ -109,8 +150,10 @@ This glossary is designed to close the last-mile exam gap between “I know the 
 | Amazon SQS | Managed queue | Decouple components |
 | Amazon SNS | Pub/sub notifications | Fan-out alerts and events |
 | Amazon EventBridge | Event bus | Route events across systems |
+| AWS Step Functions | Workflow orchestration | Coordinate multi-step serverless workflows |
 | Amazon SES | Email sending service | Transactional and application email |
 | Amazon Connect | Cloud contact center | Customer support/contact center use |
+| AWS CLI | Command-line interface | Script and automate AWS operations |
 | AWS CodeBuild | Build service | CI build steps |
 | AWS CodePipeline | Pipeline orchestration | Delivery workflow automation |
 | AWS X-Ray | Distributed tracing | Trace requests across systems |
@@ -135,6 +178,19 @@ This glossary is designed to close the last-mile exam gap between “I know the 
 | Amazon Rekognition | Image/video analysis | Computer vision tasks |
 | Amazon Kendra | Intelligent enterprise search | Search across enterprise data |
 | Amazon Polly | Text-to-speech | Convert text into speech |
+| Amazon Q | Generative AI assistant family | AI assistant capability across AWS and business contexts |
+
+### Migration and transfer services
+
+| Service | What it is | What to remember |
+| --- | --- | --- |
+| AWS Application Discovery Service | Discovery service for migrations | Collects on-premises environment data |
+| AWS Application Migration Service | Lift-and-shift server migration | Replaces CloudEndure Migration naming for modern prep |
+| AWS Database Migration Service | Database migration service | Moves databases into AWS |
+| Migration Evaluator | Migration business case tool | Helps assess migration cost and planning |
+| AWS Migration Hub | Migration tracking hub | Central place to track migration progress |
+| AWS Schema Conversion Tool | Schema conversion tool | Converts schemas during database migrations |
+| AWS Snow Family | Physical data transfer and edge devices | Large offline data movement and edge use cases |
 
 ### Support and learning resources
 
@@ -145,6 +201,21 @@ This glossary is designed to close the last-mile exam gap between “I know the 
 | AWS Whitepapers | Architecture and service guidance | Conceptual study support |
 | AWS re:Post | Community and knowledge platform | Troubleshooting and Q&A |
 | AWS Prescriptive Guidance | Architecture and implementation guidance | Best-practice design help |
+
+### Official out-of-scope names you might see in courses
+
+These names appear in some broad AWS courses or older material, but the current AWS CLF-C02 out-of-scope list marks them as not exam priorities.
+
+| Service | Why it matters |
+| --- | --- |
+| Amazon MSK | Useful Kafka service, but out of scope for CLF-C02 |
+| Amazon WorkDocs | Older business app topic, out of scope for CLF-C02 |
+| Amazon WorkMail | Older business app topic, out of scope for CLF-C02 |
+| AWS App Runner | Useful compute service, but out of scope for CLF-C02 |
+| AWS CodeDeploy | Useful developer tool, but out of scope for CLF-C02 |
+| AWS CloudShell | Useful browser shell service, but out of scope for CLF-C02 |
+| AWS Network Firewall | Useful network security service, but out of scope for CLF-C02 |
+| Amazon FSx for Lustre | Specific FSx variant, out of scope for CLF-C02 |
 
 ### What not to do with this glossary
 
