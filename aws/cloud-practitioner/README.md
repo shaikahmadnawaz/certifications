@@ -27,7 +27,8 @@ This folder is a **complete** study pack for the AWS Certified Cloud Practitione
 - [notes/03-security-compliance.md](./notes/03-security-compliance.md) — IAM, security services, governance
 - [notes/04-billing-support.md](./notes/04-billing-support.md) — Pricing models, cost tools, support plans
 - [notes/12-well-architected-deep-dive.md](./notes/12-well-architected-deep-dive.md) — All 6 pillars explained in depth
-- [notes/13-migration-and-caf.md](./notes/13-migration-and-caf.md) — CAF 6 perspectives, 7 Rs of migration, migration tools
+- [notes/13-migration-and-caf.md](./notes/13-migration-and-caf.md) — 7 Rs of migration, migration tools (CAF summary + link to deep-dive)
+- [notes/19-cloud-adoption-framework.md](./notes/19-cloud-adoption-framework.md) — **AWS CAF deep-dive**: 6 perspectives, 4 domains, 4 phases, CAF vs Well-Architected
 - [notes/14-service-deep-dives.md](./notes/14-service-deep-dives.md) — S3 classes, EC2 families, VPC endpoints, Snow Family, Transit Gateway, Global Accelerator
 
 ### Reference & Revision
@@ -59,9 +60,10 @@ This folder is a **complete** study pack for the AWS Certified Cloud Practitione
 1. [notes/01-cloud-fundamentals.md](./notes/01-cloud-fundamentals.md)
 2. [notes/02-core-services.md](./notes/02-core-services.md)
 3. [notes/12-well-architected-deep-dive.md](./notes/12-well-architected-deep-dive.md)
-4. [notes/13-migration-and-caf.md](./notes/13-migration-and-caf.md)
-5. [notes/03-security-compliance.md](./notes/03-security-compliance.md)
-6. [notes/04-billing-support.md](./notes/04-billing-support.md)
+4. [notes/19-cloud-adoption-framework.md](./notes/19-cloud-adoption-framework.md) — learn right after Well-Architected to lock in the difference
+5. [notes/13-migration-and-caf.md](./notes/13-migration-and-caf.md)
+6. [notes/03-security-compliance.md](./notes/03-security-compliance.md)
+7. [notes/04-billing-support.md](./notes/04-billing-support.md)
 
 ### Phase 2: Depth & Service Details (Days 6–8)
 
@@ -98,6 +100,7 @@ This folder is a **complete** study pack for the AWS Certified Cloud Practitione
    - 80%+ on [15-advanced-mock-questions.md](./notes/15-advanced-mock-questions.md) → ready to book the real exam
 4. **Track weak areas.** Every wrong answer gets logged with the topic. Re-study only the gap.
 5. **Supplement with one external resource.** Tutorials Dojo practice exams (~$15) or AWS Skill Builder practice questions (free).
+   - Practice-question resource used for this pack: [ExamCademy CLF-C02](https://examcademy.com/exams/amazon/aws-certified-cloud-practitioner-clf-c02) — free, community-contributed mock tests. Use it for timed format/recall practice, but cross-check any answer against the verified notes (`17-official-service-glossary.md`, `07-official-objective-mapping.md`, `19-cloud-adoption-framework.md`), since community answers can be outdated or wrong.
 
 ---
 
