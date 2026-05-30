@@ -310,6 +310,24 @@ Use it in sets of 20, then review misses by domain using `07-official-objective-
 100. What is the safest exam mindset when two answers look plausible?
      Answer: Choose the service that most directly and simply matches the exact workload requirement
 
+101. How many perspectives are in the AWS Cloud Adoption Framework (CAF), and what are they?
+     Answer: Six — Business, People, Governance, Platform, Security, Operations
+
+102. Which CAF perspective focuses on skills, culture, leadership, and workforce training?
+     Answer: The People perspective
+
+103. Which three CAF perspectives are the business (non-technical) capabilities?
+     Answer: Business, People, and Governance
+
+104. Which CAF perspective covers risk management, cloud financial management (FinOps), and measuring cloud initiatives?
+     Answer: The Governance perspective
+
+105. What are the four CAF cloud transformation phases, in order?
+     Answer: Envision, Align, Launch, Scale
+
+106. Which CAF phase identifies capability gaps across the six perspectives?
+     Answer: The Align phase
+
 ---
 
 ## Practical Examples & Reference Snippets

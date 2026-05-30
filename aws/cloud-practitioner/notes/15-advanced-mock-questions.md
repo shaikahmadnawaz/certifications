@@ -1403,6 +1403,138 @@ Which feature helps you see AWS spend broken down by service, tag, or account?
 
 ---
 
+## Set 5: AWS CAF Focus (Questions 101–108)
+
+### Q101
+A company is planning its cloud adoption and wants to identify capability gaps across the six AWS CAF perspectives before running any pilots. Which CAF phase is this?
+- A) Envision
+- B) Align
+- C) Launch
+- D) Scale
+
+<details><summary>Answer</summary>
+
+**B. Align**
+
+- A is wrong: Envision *identifies and prioritizes* transformation opportunities, it doesn't analyze capability gaps
+- C is wrong: Launch delivers pilots in production
+- D is wrong: Scale expands successful pilots
+- Keyword "capability gaps across the perspectives" = **Align**
+</details>
+
+### Q102
+Which AWS CAF perspective ensures cloud investments align with business outcomes and helps create new revenue streams?
+- A) Business
+- B) People
+- C) Platform
+- D) Operations
+
+<details><summary>Answer</summary>
+
+**A. Business**
+
+- B (People) = skills, culture, training
+- C (Platform) = build the platform, modernize workloads
+- D (Operations) = run and deliver services
+- "Business outcomes / revenue" = **Business**
+</details>
+
+### Q103
+A company needs to ensure its cloud services run reliably with observability, incident management, and change management. Which CAF perspective covers this?
+- A) Security
+- B) Platform
+- C) Operations
+- D) Governance
+
+<details><summary>Answer</summary>
+
+**C. Operations**
+
+- A (Security) = confidentiality, integrity, availability of data
+- B (Platform) = *building* the platform, not running services day-to-day
+- D (Governance) = risk, cost, measuring initiatives
+- "Run/deliver services, observability, incident & change management" = **Operations**
+</details>
+
+### Q104
+An organization is choosing a framework to guide its company-wide journey of adopting the cloud — assessing readiness, skills, and governance. Which framework is the BEST fit?
+- A) AWS Well-Architected Framework
+- B) AWS Cloud Adoption Framework (CAF)
+- C) AWS Cloud Financial Framework
+- D) AWS Shared Responsibility Model
+
+<details><summary>Answer</summary>
+
+**B. AWS Cloud Adoption Framework (CAF)**
+
+- A (Well-Architected) guides the design of a *workload/architecture*, not organizational adoption
+- C is not a real framework (distractor)
+- D defines security duty split, not an adoption plan
+- "Organizational adoption / readiness" = **CAF**
+</details>
+
+### Q105
+Which CAF phase focuses on delivering pilot initiatives in production to demonstrate incremental business value before scaling?
+- A) Envision
+- B) Align
+- C) Launch
+- D) Scale
+
+<details><summary>Answer</summary>
+
+**C. Launch**
+
+- Launch = run impactful pilots in production and learn before scaling
+- Scale only comes after pilots prove value
+</details>
+
+### Q106
+A CFO wants to control cloud spend, manage transformation risk, and measure the ROI of cloud initiatives. Which CAF perspective addresses these needs?
+- A) Business
+- B) Governance
+- C) People
+- D) Operations
+
+<details><summary>Answer</summary>
+
+**B. Governance**
+
+- Common trap with **Business**: Business = aligning spend to *outcomes/strategy*; Governance = *controlling cost (cloud financial management), risk, and measuring* initiatives
+- Governance owns risk management + cloud financial management
+</details>
+
+### Q107
+Which of the following is NOT one of the four AWS CAF transformation domains?
+- A) Technology
+- B) Process
+- C) Organization
+- D) Security
+
+<details><summary>Answer</summary>
+
+**D. Security**
+
+- The four transformation domains are **Technology, Process, Organization, Product**
+- Security is a *perspective*, not a domain — a classic mix-up
+</details>
+
+### Q108
+Which three CAF perspectives are considered the technical capabilities?
+- A) Business, People, Governance
+- B) Platform, Security, Operations
+- C) Business, Platform, Security
+- D) People, Governance, Operations
+
+<details><summary>Answer</summary>
+
+**B. Platform, Security, Operations**
+
+- Business, People, Governance = business (non-technical) capabilities
+- Platform, Security, Operations = technical capabilities
+</details>
+
+---
+
 ## Scoring Guide
 
 | Score | Readiness |
