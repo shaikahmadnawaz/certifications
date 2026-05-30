@@ -8,6 +8,8 @@ Domain 1 Task 1.3 explicitly tests **migration benefits and strategies** and the
 
 ## Part 1: The AWS Cloud Adoption Framework (CAF)
 
+> **For full CAF coverage** (4 transformation domains, capabilities per perspective, CAF vs Well-Architected, and exam drills), see [19-cloud-adoption-framework.md](./19-cloud-adoption-framework.md). The summary below is enough for the migration context.
+
 AWS CAF helps organizations plan a cloud transformation. It organizes guidance into **6 perspectives**. Think of perspectives as "lenses" through which different stakeholders view the cloud journey.
 
 ### The 6 CAF Perspectives
