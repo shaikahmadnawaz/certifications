@@ -328,6 +328,118 @@ Flashcards are for active recall, not passive reading. If you can answer these q
 100. Q: Which support plan is the safer choice for production-critical workloads than Developer Support?
      A: Business Support.
 
+### Cloud concepts and models
+
+101. Q: Name the six advantages of cloud computing (AWS).
+     A: 1) Trade capital expense for variable expense, 2) Benefit from massive economies of scale, 3) Stop guessing capacity, 4) Increase speed and agility, 5) Stop spending money running/maintaining data centers, 6) Go global in minutes.
+
+102. Q: What is the difference between IaaS, PaaS, and SaaS?
+     A: IaaS = you manage OS/apps on AWS infrastructure (EC2); PaaS = AWS manages the platform, you deploy code (Elastic Beanstalk); SaaS = ready-to-use software (e.g., Amazon WorkMail).
+
+103. Q: What are the three cloud deployment models?
+     A: Cloud (all-in), Hybrid (cloud + on-premises), and On-premises/Private (e.g., AWS Outposts for hybrid).
+
+104. Q: Why does the cloud offer lower variable cost ("economies of scale")?
+     A: AWS aggregates usage from huge numbers of customers, which lowers pay-as-you-go prices.
+
+### Cloud Adoption Framework (CAF)
+
+105. Q: What is the AWS Cloud Adoption Framework (CAF)?
+     A: Guidance to plan and accelerate an organization's cloud adoption, organized into 6 perspectives.
+
+106. Q: Name the 6 CAF perspectives.
+     A: Business, People, Governance, Platform, Security, Operations.
+
+107. Q: Which 3 CAF perspectives are the business (non-technical) capabilities?
+     A: Business, People, Governance. (Platform, Security, Operations are technical.)
+
+108. Q: Which CAF perspective covers skills, culture, training, and change management?
+     A: The People perspective.
+
+109. Q: Which CAF perspective covers risk, compliance, and cloud financial management?
+     A: The Governance perspective.
+
+110. Q: Name the 4 CAF transformation phases in order.
+     A: Envision, Align, Launch, Scale.
+
+111. Q: Which CAF phase identifies capability gaps across the 6 perspectives?
+     A: The Align phase.
+
+112. Q: CAF vs Well-Architected Framework?
+     A: CAF = organizational cloud adoption (6 perspectives); Well-Architected = workload/architecture design (6 pillars).
+
+### Well-Architected and review tools
+
+113. Q: Which AWS tool reviews a workload against the 6 pillars and flags risks?
+     A: The AWS Well-Architected Tool (free in the console).
+
+114. Q: Which Well-Architected pillar covers availability, failover, and disaster recovery?
+     A: Reliability.
+
+115. Q: How many categories does Trusted Advisor check?
+     A: 6 — Cost Optimization, Performance, Resilience, Security, Operational Excellence, Service Limits. (Older material lists 5 with "Fault Tolerance.")
+
+### Migration (7 Rs)
+
+116. Q: Name the 7 Rs of migration.
+     A: Rehost, Replatform, Relocate, Repurchase, Refactor, Retire, Retain.
+
+117. Q: Which R is "lift-and-shift" with no changes?
+     A: Rehost.
+
+118. Q: Which R means rewriting an app for cloud-native benefits?
+     A: Refactor (Re-architect).
+
+### Support plans
+
+119. Q: Name the 5 AWS Support plans.
+     A: Basic, Developer, Business, Enterprise On-Ramp, Enterprise.
+
+120. Q: Which support plans include a Technical Account Manager (TAM)?
+     A: Enterprise (designated TAM) and Enterprise On-Ramp (pool of TAMs).
+
+121. Q: What is the minimum plan for 24/7 phone, chat, and email with Cloud Support Engineers?
+     A: Business Support.
+
+### Billing and pricing (extras)
+
+122. Q: What does AWS Organizations consolidated billing provide?
+     A: A single bill across accounts plus volume (tiered) pricing discounts.
+
+123. Q: Which commitment-based option is most flexible across EC2, Lambda, and Fargate?
+     A: Compute Savings Plans.
+
+124. Q: What are cost allocation tags used for?
+     A: Attributing and tracking AWS costs by team, project, or environment.
+
+### Networking and global (extras)
+
+125. Q: What does AWS Transit Gateway do?
+     A: Acts as a central hub connecting many VPCs and on-premises networks with transitive routing (replaces the VPC peering mesh).
+
+126. Q: CloudFront vs Global Accelerator?
+     A: CloudFront = CDN that caches HTTP/S content at edge locations; Global Accelerator = network-layer routing with static IPs for TCP/UDP (no caching).
+
+127. Q: What is a VPC gateway endpoint used for?
+     A: Private access to S3/DynamoDB from a VPC without traffic going over the internet (and it's free).
+
+### Security and governance (extras)
+
+128. Q: In IAM policy evaluation, what wins — allow or explicit deny?
+     A: An explicit deny always wins.
+
+129. Q: What are Service Control Policies (SCPs) in AWS Organizations?
+     A: Guardrails that set the maximum permissions for accounts/OUs (they don't grant access).
+
+130. Q: Which service sets up a secure multi-account environment with best-practice guardrails?
+     A: AWS Control Tower.
+
+131. Q: Which service discovers sensitive data such as PII in S3?
+     A: Amazon Macie.
+
+132. Q: Which service centralizes security findings across accounts?
+     A: AWS Security Hub.
+
 ---
 
 ## Practical Examples & Reference Snippets
@@ -358,4 +470,8 @@ Pub/Sub -> SNS
 Event bus -> EventBridge
 Spend alert -> Budgets
 Spend analysis -> Cost Explorer
+CAF -> org adoption (6 perspectives: B/P/G + P/S/O)
+WAF -> workload design (6 pillars: O-S-R-P-C-S)
+7 Rs -> Rehost, Replatform, Relocate, Repurchase, Refactor, Retire, Retain
+TAM -> Enterprise (+ Enterprise On-Ramp)
 ```
